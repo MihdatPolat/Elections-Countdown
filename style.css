@@ -1,0 +1,46 @@
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+.HPBackGround{
+    position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+opacity: 1;
+z-index: -1;
+background-color: black;
+}
+.HPBackGround video{
+    width:100%;
+height: 100%;
+-o-object-fit: cover;
+object-fit: cover;
+background: #000000;
+}
+#countdown{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+p {
+    text-align: center;
+    place-items: center;
+	padding: 70px;
+	color: #fff;
+	z-index: 2;
+    width: max-content;
+	max-width: 650px;
+	background: #12142ed6;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: 'Amatic SC';
+	letter-spacing: 2px;
+	user-select: none;
+    border-radius: 5%;
+}
